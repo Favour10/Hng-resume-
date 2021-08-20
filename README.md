@@ -1,2 +1,1 @@
-# Hng-resume-
-My resume (zurihng) 
+https://favour10.github.io/Hng-resume-/
