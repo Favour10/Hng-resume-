@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=catamaran:400,800");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+:root {
+  font-size: calc(#em + #vw);
+}
+
+body,
+html {
+  -ms-overflow-style: scrollbar;
+  box-sizing: border-box;
+  font-family: "catamaran", sans-serif;
+  margin: 0 auto;
+  color: white;
+  background-color: #522d41;
+  padding: 1%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.image{
+  height:50px;
+  width:50%;
+  justify-content: space-around;
+  display:flex;
+  flex:wrap;
+  padding: 10rem;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin:10px;
+ }
+.position:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.space {
+  clear: both;
+  height: 2px;
+  background-color: #522d41;
+  margin: 2% auto;
+  width: 96%;
+}
+.break-line {
+  clear: both;
+  height: 15px;
+  background-color: #edd382;
+  margin: 4% auto;
+  margin-bottom: 10px;
+  width: 100%; 
+}
+
+.container {
+  justify-content: space-around;
+  display: flex;
+  flex: wrap;
+  height: 50%;
+  padding: 10rem;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+h1 {
+  color: #edd382;
+  font-size: 65px;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #edd382;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.bg1 {
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.bg2 {
+  color: white;
+}
+.work {
+  color: #edd382;
+}
+.display {
+  padding: 20px;
+  width: 40%;
+}
+.position {
+  padding: 20px;
+  width: 50%;
+}
+p {
+  margin-bottom: 2px;
+  text-shadow: rgb(0, 0, 0, 0.8);
+  text-align: justify-all;
+}
+/*Responsiveness with media queries*/
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+  }
+  .image {
+    height: 50px;
+    width: 50%;
+    margin: 10px;
+   }
+  html,
+  body {
+    padding: 2px;
+    margin: auto;
+  }
+  .display {
+    width: 100%;
+    padding: 0px;
+  }
+  .position {
+    width: 100%;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 16px;
+    text-align: justify-all;
+  }
+  .bg1 {
+    font-size: 12px;
+  }
+  p {
+    text-shadow: rgb(0, 0, 0, 0.8);
+    text-align: justify-all;
+    font-size: 12px;
+  }
+  .break-line {
+    height: 5px;
+  }
+}
